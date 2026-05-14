@@ -1,5 +1,6 @@
 import React from 'react';
 import img1 from "../assets/yardspecial.png";
+import milkshake from "../assets/milkshake.png"
 
 
 export const Menu = () => {
@@ -37,7 +38,7 @@ export const Menu = () => {
     {
       name: "Thick Milkshake",
       price: "$8.90",
-      img: img1,
+      img: milkshake,
       desc: "Vanilla, chocolate or strawberry."
     }
   ];
