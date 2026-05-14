@@ -1,5 +1,6 @@
 .root{
   margin: auto;
+  background:skyblue ;
 }
 
 /* NAVBAR CONTAINER */
@@ -20,9 +21,10 @@
 
 /* LEFT SIDE (LOGO + BRAND) */
 .nav-left {
+  padding-left: 2rem;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .navbar-logo {
@@ -38,8 +40,9 @@
 
 /* NAV LINKS */
 .nav-links {
+  padding-right: 2rem;
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .nav-links a {
