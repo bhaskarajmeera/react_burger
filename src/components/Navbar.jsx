@@ -1,15 +1,30 @@
 import React from 'react'
+import logo from "../assets/navbarlogo.png";
 
 export const Navbar = () => {
   return (
-    <div className='logo'>
-        <div className='title'>Burger</div>
-        <div className='nav'>
-                <a href="">Home</a>
-                <a href="">Menu</a>
-                <a href="">About</a>
-                <a href="">Conact</a>
-        </div>
-    </div>
+    <nav className="navbar">
+      <div className="nav-left">
+        <img
+          src={logo}
+          alt="BurgerYard Logo"
+          className="navbar-logo"
+        />
+        <h2 className="brand">BurgerYard</h2>
+      </div>
+
+      <div className={`nav-links ${open ? "open" : ""}`}>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div className="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
   )
 }

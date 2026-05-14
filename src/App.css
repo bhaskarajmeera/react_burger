@@ -1,20 +1,176 @@
+/* NAVBAR CONTAINER */
+.navbar {
+  background: rgb(203, 203, 221);
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
 
+/* LEFT SIDE (LOGO + BRAND) */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
+.navbar-logo {
+  width: 180px;
+  height: auto;
+}
 
+.brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+}
 
+/* NAV LINKS */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
 
-.logo{
-  padding: 1rem;
-  background: blanchedalmond;
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #ff7b00;
+}
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #333;
+  border-radius: 5px;
+}
+
+/* FOOTER          */
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 3rem 1.5rem 1rem;
+  margin-top: 3rem;
+}
+
+.footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  border-radius: 10px;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
-.title{
-  margin-left: 2rem;
+
+.footer-brand {
+  max-width: 250px;
 }
-.nav{
-  justify-content: space-between;
-  
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 10px;
 }
+
+.footer-brand h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.footer-brand p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.footer-links,
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #ff7b00;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 6px;
+  transition: 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ff7b00;
+}
+
+.footer-contact p {
+  margin-bottom: 6px;
+  color: #ccc;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+/* MOBILE */
+
+
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: white;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+
+
+
+
+

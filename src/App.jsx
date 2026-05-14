@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Menu/> 
+      <Menu /> 
       <About/>
       <Contact/>
       <Footer/>  
