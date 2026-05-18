@@ -42,7 +42,6 @@ export const Menu = () => {
       desc: "Vanilla, chocolate or strawberry."
     }
   ];
-  
   return (
     <>
     <section className="menu" id="menu">
@@ -55,6 +54,10 @@ export const Menu = () => {
             <h3>{item.name}</h3>
             <p className="menu-desc">{item.desc}</p>
             <p className="menu-price">{item.price}</p>
+            <div className="hero-buttons">
+            <button className="btn primary">Add to cart</button>
+            
+          </div>
           </div>
         ))}
       </div>

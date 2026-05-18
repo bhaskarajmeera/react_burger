@@ -14,7 +14,7 @@ export const Navbar = () => {
       </div>
 
       <div className={`nav-links ${open ? "open" : ""}`}>
-        <a href="#home">Home</a>
+        <a href="/">Home</a>
         <a href="#menu">Menu</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
