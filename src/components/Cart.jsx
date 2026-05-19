@@ -15,7 +15,7 @@ const Cart = () => {
       id: 2,
       name: "Loaded Fries",
       price: 8.9,
-      qty: 2,
+      qty: 1,
       img: milkshake,
     },
   ];

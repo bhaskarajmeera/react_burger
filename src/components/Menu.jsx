@@ -6,41 +6,49 @@ import milkshake from "../assets/milkshake.png"
 export const Menu = () => {
   const items = [
     {
-      name: "Yard Special Burger",
-      price: "$15",
-      img: img1,
-      desc: "Wagyu Beef, American Cheese, Pickled Gherkins, Fresh Lettuce, Slaw ,Jalapenos, Yard Signature Sauce & Spicy Peri Sauce."
-    },
-    {
-      name: "Backyard Clasic",
-      price: "$15",
-      img: img1,
-      desc: "Wagyu Beef, American Cheese, Red Onion, Pickled Gherkins, Fresh Lettuce, Tomotoes, Yard Signature Sauce & Trufle Sauce. "
-    },
-    {
-      name: "Spicy Fire Burger",
-      price: "$13.99",
-      img: img1,
-      desc: "Jalapeños, spicy mayo & pepper jack cheese."
-    },
-    {
-      name: "Chicken Crunch Burger",
-      price: "$11.99",
-      img: img1,
-      desc: "Crispy fried chicken, lettuce & creamy mayo."
-    },
-    {
-      name: "Loaded Fries",
-      price: "$15",
-      img: img1,
-      desc: "Cheese sauce, bacon bits & spring onions."
-    },
-    {
-      name: "Thick Milkshake",
-      price: "$8.90",
-      img: milkshake,
-      desc: "Vanilla, chocolate or strawberry."
-    }
+    id: 1,
+    name: "Yard Special Burger",
+    description:
+      "Wagyu Beef, American Cheese, Pickled Gherkins, Fresh Lettuce, Slaw, Jalapenos, Yard Signature Sauce & Spicy Peri Sauce.",
+    price: 15,
+    img: img1,
+  },
+  {
+    id: 2,
+    name: "Backyard Classic",
+    description:
+      "Wagyu Beef, American Cheese, Red Onion, Pickled Gherkins, Fresh Lettuce, Tomatoes, Yard Signature Sauce & Truffle Sauce.",
+    price: 15,
+    img: img1,
+  },
+  {
+    id: 3,
+    name: "Spicy Fire Burger",
+    description: "Jalapeños, spicy mayo & pepper jack cheese.",
+    price: 13.99,
+    img: img1,
+  },
+  {
+    id: 4,
+    name: "Chicken Crunch Burger",
+    description: "Crispy fried chicken, lettuce & creamy mayo.",
+    price: 11.99,
+    img: img1,
+  },
+  {
+    id: 5,
+    name: "Loaded Fries",
+    description: "Cheese sauce, bacon bits & spring onions.",
+    price: 15,
+    img: img1,
+  },
+  {
+    id: 6,
+    name: "Thick Milkshake",
+    description: "Vanilla, chocolate or strawberry.",
+    price: 8.9,
+    img: milkshake,
+  },
   ];
   return (
     <>
