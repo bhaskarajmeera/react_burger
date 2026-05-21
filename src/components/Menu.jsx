@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from "../assets/YardSpecial.png";
+import img1 from "../assets/yardspecial.png";
 import milkshake from "../assets/milkshake.png"
 
 
