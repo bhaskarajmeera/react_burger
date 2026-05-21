@@ -6,19 +6,21 @@ import { About } from './components/About'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import Hero from './components/Hero'
-import Cart from './components/Cart'
+/* import Cart from './components/Cart' */
 function App() {
 
   return (
-    <>
-      <Navbar/>
+    <div className='wrapper'>
+<Navbar/>
       <Hero />
       <Menu />
-      <Cart /> 
+      {/* <Cart /> */} 
       <About/>
       <Contact/>
       <Footer/>  
-    </>
+    
+    </div>
+      
   )
 }
 

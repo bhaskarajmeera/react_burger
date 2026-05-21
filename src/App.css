@@ -1,13 +1,20 @@
-.root{
-  margin: auto;
-  background:skybluegit ;
+
+:root {
+  
+  --primary-color: #9e8c8c
+  --secondary-color: #333333;
+  --border-radius: 8px;
+  --header-height: 100px;
+}
+.wrapper{
+  margin: 0;
+  
 }
 /* NAVBAR CONTAINER */
 .navbar {
-  background: rgb(203, 203, 221);
   width: 100%;
   height: 70px;
-  background: #ffffff;
+  background: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,14 +26,14 @@
 }
 /* LEFT SIDE (LOGO + BRAND) */
 .nav-left {
-  padding-left: 2rem;
+  padding-left: 1rem;
   display: flex;
   align-items: center;
   gap: 20px;
 }
 .navbar-logo {
-  width: 180px;
-  height: auto;
+  width: 160px;
+  height: 80px;
 }
 .brand {
   font-size: 1.4rem;
@@ -58,14 +65,14 @@
 .hamburger span {
   width: 25px;
   height: 3px;
-  background: #333;
+  background: #161515;
   border-radius: 5px;
 }
 
 /* HERO PAGE */
 .hero {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: url("./assets/Hero.png") center/cover no-repeat;
   display: flex;
@@ -135,7 +142,7 @@
 .menu {
   width: 100%;
   padding: 2rem 2rem;
-  background: #fafafa;
+  background: var(--primary-color);
 }
 .menu-title {
   text-align: center;
@@ -150,7 +157,7 @@
   gap: 2rem;
 }
 .menu-card {
-  background: #dcc8c8;
+  background: #ddd0d097;
   padding: 1.5rem;
   border-radius: 12px;
   text-align: center;
@@ -164,7 +171,7 @@
 
 .menu-img {
   width: 320px;
-  height: 240px;
+  height: 320px;
   object-fit: contain;
   margin-bottom: 1rem;
   opacity: 1;
@@ -186,7 +193,7 @@
 
 .about {
   padding: 4rem 2rem;
-  background: #fff;
+  background: var(--primary-color);
 }
 
 .about-content {
@@ -249,8 +256,8 @@
 /* FOOTER  PAGE*/
 .footer {
   width: 100%;
-  background: #111;
-  color: #fff;
+  background: var(--primary-color);
+  color: #1b1919;
   padding: 3rem 1.5rem 1rem;
   margin-top: 3rem;
 }
@@ -382,7 +389,7 @@
 .contact {
   width: 100%;
   padding: 4rem 2rem;
-  background: #fafafa;
+  background: #9e8c8c;
 }
 
 .contact-title {
@@ -487,7 +494,7 @@
 .cart-item {
   display: flex;
   align-items: center;
-  background: #fff;
+  background: var(--primary-color);
   padding: 0.8rem;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);

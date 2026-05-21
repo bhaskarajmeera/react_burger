@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/navbarlogo.png";
+import logo from "../assets/BurgerYard.png";
 
 export const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ export const Navbar = () => {
       <div className={`nav-links ${open ? "open" : ""}`}>
         <a href="/">Home</a>
         <a href="#menu">Menu</a>
-        <a href="#cart">Cart</a>
+        {/* <a href="#cart">Cart</a> */}
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </div>
