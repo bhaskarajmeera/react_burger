@@ -1,6 +1,8 @@
-import React from 'react';
+
 import img1 from "../assets/yardspecial.png";
 import milkshake from "../assets/milkshake.png"
+
+
 
 
 export const Menu = () => {
@@ -60,15 +62,15 @@ export const Menu = () => {
           <div className="menu-card" key={index}>
             <img src={item.img} alt={item.name} className="menu-img" />
             <h3>{item.name}</h3>
-            <p className="menu-desc">{item.desc}</p>
-            <p className="menu-price">{item.price}</p>
+            <p className="menu-desc">{item.description}</p>
+            <p className="menu-price">${item.price}</p>
             <div className="hero-buttons">
             <button className="btn primary">Add to cart</button>
-            
           </div>
           </div>
         ))}
       </div>
+        
     </section>
     </>
   )

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import logo from "../assets/BurgerYard.png";
 
 export const About = () => {

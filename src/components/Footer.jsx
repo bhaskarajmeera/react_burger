@@ -19,8 +19,8 @@ export const Footer = () => {
         </div>
         <div className="footer-contact">
           <h4>Contact</h4>
-          <p>📍 Newcastle, NSW</p>
-          <p>📞 +61 400 000 000</p>
+          <p>📍 The Mark Hotel, 46 Dickson St,Lambton, NSW 2299</p>
+          <p>📞 +61 451 449 096</p>
           <p>✉️ info@burgeryard.com</p>
         </div>
       </div>
