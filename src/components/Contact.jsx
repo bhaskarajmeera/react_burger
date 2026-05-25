@@ -21,7 +21,7 @@ export const Contact = () => {
               title="BurgerYard Location"
               src=""
               width="100%"
-              height="200"
+              height="100%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
