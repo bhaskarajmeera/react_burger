@@ -1,6 +1,6 @@
 
 import img1 from "../assets/yardspecial.png";
-import milkshake from "../assets/milkshake.png"
+import milkshake from "../assets/milkShake.png"
 
 
 
